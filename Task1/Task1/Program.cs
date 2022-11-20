@@ -39,22 +39,28 @@ namespace Task1
 
 
             int[] myarray = { 1, 1, 2, 3, 4, 5, 6, 7, 8, 9 };
-            for (int i = 0; i < myarray.Length; i++)
-            {
-                Console.WriteLine("elemnt - " + i + ":" + myarray[i]);
-            }
+            
+            Console.WriteLine("elemnt - " + 0 + ":" + myarray[0]);
+            Console.WriteLine("elemnt - " + 1 + ":" + myarray[1]);
+            Console.WriteLine("elemnt - " + 2 + ":" + myarray[2]);
+            Console.WriteLine("elemnt - " + 3 + ":" + myarray[3]);
+            Console.WriteLine("elemnt - " + 4 + ":" + myarray[4]);
+            Console.WriteLine("elemnt - " + 5 + ":" + myarray[5]);
+            Console.WriteLine("elemnt - " + 6 + ":" + myarray[6]);
+            Console.WriteLine("elemnt - " + 7 + ":" + myarray[7]);
+            Console.WriteLine("elemnt - " + 8 + ":" + myarray[8]);
+            Console.WriteLine("elemnt - " + 9 + ":" + myarray[9]);
+
+
 
 
 
             int[] secondArray ={2, 5, 8};
             int sum = 0;
-            Console.Write("Sum:")
-            for(int i = 0; i < secondArray.Length; i++)
-            {
-                sum+= secondArray[i];
-            }
-            Console.WriteLine(sum);
-
+            Console.Write("Sum:");
+            sum = secondArray[0] + secondArray[1] + secondArray[2];
+            Console.Write(sum);
+            Console.WriteLine();
 
         }
     }
