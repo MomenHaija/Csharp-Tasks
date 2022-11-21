@@ -49,6 +49,7 @@ namespace Task1
             Console.WriteLine(firstName+" " + sureName +" "+ birth);
 
 
+            
             int[] myarray = { 1, 1, 2, 3, 4, 5, 6, 7, 8, 9 };
             
             Console.WriteLine("elemnt - " + 0 + ":" + myarray[0]);
@@ -61,7 +62,7 @@ namespace Task1
             Console.WriteLine("elemnt - " + 7 + ":" + myarray[7]);
             Console.WriteLine("elemnt - " + 8 + ":" + myarray[8]);
             Console.WriteLine("elemnt - " + 9 + ":" + myarray[9]);
-
+            Console.WriteLine(myarray.Length);
 
 
 
@@ -72,6 +73,8 @@ namespace Task1
             sum = secondArray[0] + secondArray[1] + secondArray[2];
             Console.Write(sum);
             Console.WriteLine();
+
+            Console.ReadLine();
 
         }
     }
