@@ -16,13 +16,21 @@ namespace Task1
             Console.WriteLine(name);
 
             double firstNum = 5.524;
+            Console.WriteLine("Double Number=  " + firstNum);
             string Myname = "Momen";
-            char firstlatter = 'A';
+            Console.WriteLine("String=  " +Myname);
+            char firstlatter = 'M';
+            Console.WriteLine("Char=  " + firstlatter);
             int secondNum = 2;
+            Console.WriteLine("integer Number=  " + secondNum);
             const int thiredNum = 3;
+            Console.WriteLine("constant Number=  " + thiredNum);
 
             string[] car = { "BWM", "HONDA", "KIA" };
-
+            Console.WriteLine("index 0 in car array=  "+car[0]);
+            Console.WriteLine("index 1 in car array=  "+car[1]);
+            Console.WriteLine("index 2 in car array=  "+car[2]);
+         
 
 
             Console.WriteLine("Please Enter You'r first Name");
@@ -35,7 +43,7 @@ namespace Task1
             string birth = Console.ReadLine();
 
 
-            Console.WriteLine(firstName + sureName + birth);
+            Console.WriteLine(firstName+" " + sureName +" "+ birth);
 
 
             int[] myarray = { 1, 1, 2, 3, 4, 5, 6, 7, 8, 9 };
