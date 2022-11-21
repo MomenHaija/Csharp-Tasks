@@ -11,9 +11,10 @@ namespace Task1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Please Enter You'r Name");
+            Console.WriteLine("Please Enter You'r String");
             string name = Console.ReadLine();
             Console.WriteLine(name);
+
 
             double firstNum = 5.524;
             Console.WriteLine("Double Number=  " + firstNum);
@@ -25,6 +26,8 @@ namespace Task1
             Console.WriteLine("integer Number=  " + secondNum);
             const int thiredNum = 3;
             Console.WriteLine("constant Number=  " + thiredNum);
+
+
 
             string[] car = { "BWM", "HONDA", "KIA" };
             Console.WriteLine("index 0 in car array=  "+car[0]);
