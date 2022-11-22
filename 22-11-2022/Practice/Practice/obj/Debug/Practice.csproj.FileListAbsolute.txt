@@ -1,0 +1,8 @@
+C:\Users\haija\source\repos\Csharp-Tasks\22-11-2022\Practice\Practice\bin\Debug\Practice.exe.config
+C:\Users\haija\source\repos\Csharp-Tasks\22-11-2022\Practice\Practice\bin\Debug\Practice.exe
+C:\Users\haija\source\repos\Csharp-Tasks\22-11-2022\Practice\Practice\bin\Debug\Practice.pdb
+C:\Users\haija\source\repos\Csharp-Tasks\22-11-2022\Practice\Practice\obj\Debug\Practice.csproj.AssemblyReference.cache
+C:\Users\haija\source\repos\Csharp-Tasks\22-11-2022\Practice\Practice\obj\Debug\Practice.csproj.SuggestedBindingRedirects.cache
+C:\Users\haija\source\repos\Csharp-Tasks\22-11-2022\Practice\Practice\obj\Debug\Practice.csproj.CoreCompileInputs.cache
+C:\Users\haija\source\repos\Csharp-Tasks\22-11-2022\Practice\Practice\obj\Debug\Practice.exe
+C:\Users\haija\source\repos\Csharp-Tasks\22-11-2022\Practice\Practice\obj\Debug\Practice.pdb
