@@ -1,0 +1,8 @@
+C:\Users\haija\source\repos\Csharp-Tasks\23-11\day_tasks\day_tasks\bin\Debug\day_tasks.exe.config
+C:\Users\haija\source\repos\Csharp-Tasks\23-11\day_tasks\day_tasks\bin\Debug\day_tasks.exe
+C:\Users\haija\source\repos\Csharp-Tasks\23-11\day_tasks\day_tasks\bin\Debug\day_tasks.pdb
+C:\Users\haija\source\repos\Csharp-Tasks\23-11\day_tasks\day_tasks\obj\Debug\day_tasks.csproj.AssemblyReference.cache
+C:\Users\haija\source\repos\Csharp-Tasks\23-11\day_tasks\day_tasks\obj\Debug\day_tasks.csproj.SuggestedBindingRedirects.cache
+C:\Users\haija\source\repos\Csharp-Tasks\23-11\day_tasks\day_tasks\obj\Debug\day_tasks.csproj.CoreCompileInputs.cache
+C:\Users\haija\source\repos\Csharp-Tasks\23-11\day_tasks\day_tasks\obj\Debug\day_tasks.exe
+C:\Users\haija\source\repos\Csharp-Tasks\23-11\day_tasks\day_tasks\obj\Debug\day_tasks.pdb
