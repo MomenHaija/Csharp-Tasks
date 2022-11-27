@@ -16,7 +16,7 @@ namespace day_Tasks
             string arr3 = "the fox over lazy dog";
 
             Console.WriteLine("\n Tak 2 \n");
-            String[] fruits ={"Tomato", "Banana", "Watermelon"};
+            String[] fruits = { "Tomato", "Banana", "Watermelon" };
             Console.WriteLine("index of Banana is: " + Array.IndexOf(fruits, "Banana"));
             Console.WriteLine("index of Watermelon is: " + Array.IndexOf(fruits, "Watermelon"));
 
@@ -24,7 +24,7 @@ namespace day_Tasks
             string[] Favorite_Food = { "Checken Tenders", "Pizza", "french fries", "Donuts", "Potato Chips" };
             Console.WriteLine("\nMy Favorite Food");
             foreach (string i in Favorite_Food) { Console.WriteLine(i); };
-            for(int i=0;i< Favorite_Food.Length; i++)
+            for (int i = 0; i < Favorite_Food.Length; i++)
             {
                 Console.WriteLine(Favorite_Food[i]);
             }
@@ -44,12 +44,15 @@ namespace day_Tasks
                 Console.WriteLine(Favorit_Movie[i]);
             }
 
-            Console.WriteLine("\n Tak 4 \n");
+
+            Console.WriteLine();
+            Console.WriteLine();
+            Console.WriteLine("Tak 4");
             Console.WriteLine("Enter the Numbers");
-            string str=Console.ReadLine();
+            string str = Console.ReadLine();
             string[] str_arr = str.Split(',');
-            int[] Numarr =new int[3];
-            for(int i=0;i<str_arr.Length; i++)
+            int[] Numarr = new int[3];
+            for (int i = 0; i < str_arr.Length; i++)
             {
                 Numarr[i] = Convert.ToInt32(str_arr[i]);
                 Console.WriteLine(Numarr[i]);
@@ -69,17 +72,17 @@ namespace day_Tasks
             Console.WriteLine("\n Tak 5 \n");
             int sum = 0;
             Console.WriteLine("the odd Numbers:");
-            for(int i = 1; i < 100; i++)
+            for (int i = 1; i < 100; i++)
             {
                 if (i % 2 != 0)
                 {
-                    Console.Write(i+" ");
+                    Console.Write(i + " ");
                     sum += i;
                 }
-               
+
             }
             Console.WriteLine("\n");
-            Console.WriteLine("Sum odd Numbers from 0 to 100 is:"+sum);
+            Console.WriteLine("Sum odd Numbers from 0 to 100 is:" + sum);
 
 
 
@@ -92,7 +95,7 @@ namespace day_Tasks
                 }
                 for (int j = 1; j <= i; j++)
                 {
-                    Console.Write('*'+" ");
+                    Console.Write('*' + " ");
                 }
                 Console.WriteLine();
             }
@@ -102,7 +105,7 @@ namespace day_Tasks
             int count = 1;
             for (int i = 1; i < 5; i++)
             {
-              
+
                 for (int j = 1; j <= i; j++)
                 {
                     Console.Write(count++);
@@ -114,9 +117,6 @@ namespace day_Tasks
 
 
 
-
-
         }
-
     }
 }

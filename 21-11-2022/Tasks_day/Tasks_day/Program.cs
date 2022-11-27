@@ -13,85 +13,85 @@ namespace Tasks_day
 
             //Task1
 
-            Console.WriteLine("please Enter two Numbr to find Smaller");
-            string firstNumUser = Console.ReadLine();
-            int firstNum = Convert.ToInt32(firstNumUser);
-            string secondNumUser = Console.ReadLine();
-            int secondNum = Convert.ToInt32(secondNumUser);
-            Console.Write("Smaller Number :     ");
-            int smaller = (firstNum < secondNum) ? firstNum : secondNum;
-            Console.Write(smaller + "\n");
+            //Console.WriteLine("please Enter two Numbr to find Smaller");
+            //string firstNumUser = Console.ReadLine();
+            //int firstNum = Convert.ToInt32(firstNumUser);
+            //string secondNumUser = Console.ReadLine();
+            //int secondNum = Convert.ToInt32(secondNumUser);
+            //Console.Write("Smaller Number :     ");
+            //int smaller = (firstNum < secondNum) ? firstNum : secondNum;
+            //Console.Write(smaller + "\n");
 
 
             //task2
-            Console.WriteLine("Please Enter Number to check the sign");
-            string assignuser = Console.ReadLine();
-            int assignchar = Convert.ToInt32(assignuser);
-            char assign = (assignchar < 0) ? '-' : '+';
-            Console.Write("The sign is " + assign + "\n");
+            //Console.WriteLine("Please Enter Number to check the sign");
+            //string assignuser = Console.ReadLine();
+            //int assignchar = Convert.ToInt32(assignuser);
+            //char assign = (assignchar < 0) ? '-' : '+';
+            //Console.Write("The sign is " + assign + "\n");
 
 
 
             //task3
-            Console.WriteLine("please Enter Three Numbr to sort");
-            string num1fromuser = Console.ReadLine();
-            int num1 = Convert.ToInt32(num1fromuser);
+            //Console.WriteLine("please Enter Three Numbr to sort");
+            //string num1fromuser = Console.ReadLine();
+            //int num1 = Convert.ToInt32(num1fromuser);
 
-            string num2fromuser = Console.ReadLine();
-            int num2 = Convert.ToInt32(num2fromuser);
+            //string num2fromuser = Console.ReadLine();
+            //int num2 = Convert.ToInt32(num2fromuser);
 
-            string num3fromuser = Console.ReadLine();
-            int num3 = Convert.ToInt32(num3fromuser);
+            //string num3fromuser = Console.ReadLine();
+            //int num3 = Convert.ToInt32(num3fromuser);
 
-            int max = 0;
-            int min = 0;
-            int middle = 0;
+            //int max = 0;
+            //int min = 0;
+            //int middle = 0;
 
-            if (num1 > num2 && num1 > num3) { max = num1; }
-            else
-            {
-                if (num1 > num2 || num1 > num3)
-                {
-                    middle = num1;
-                }
-                else
-                {
-                    min = num1;
-                }
+            //if (num1 > num2 && num1 > num3) { max = num1; }
+            //else
+            //{
+            //    if (num1 > num2 || num1 > num3)
+            //    {
+            //        middle = num1;
+            //    }
+            //    else
+            //    {
+            //        min = num1;
+            //    }
 
-            }
+            //}
 
-            if (num2 > num1 && num2 > num3) { max = num2; }
-            else
-            {
-                if (num2 > num1 || num2 > num3)
-                {
-                    middle = num2;
-                }
-                else
-                {
-                    min = num2;
-                }
+            //if (num2 > num1 && num2 > num3) { max = num2; }
+            //else
+            //{
+            //    if (num2 > num1 || num2 > num3)
+            //    {
+            //        middle = num2;
+            //    }
+            //    else
+            //    {
+            //        min = num2;
+            //    }
 
-            }
+            //}
 
-            if (num3 > num1 && num3 > num1) { max = num3; }
-            else
-            {
-                if (num3 > num1 || num3 > num2)
-                {
-                    middle = num3;
-                }
-                else
-                {
-                    min = num3;
-                }
+            //if (num3 > num1 && num3 > num1) { max = num3; }
+            //else
+            //{
+            //    if (num3 > num1 || num3 > num2)
+            //    {
+            //        middle = num3;
+            //    }
+            //    else
+            //    {
+            //        min = num3;
+            //    }
 
-            }
+            //}
 
-            Console.Write(max + " ");
-            Console.Write(middle + " ");
-            Console.WriteLine(min + " ");
+            //Console.Write(max + " ");
+            //Console.Write(middle + " ");
+            //Console.WriteLine(min + " ");
 
 
             //Task4
@@ -131,32 +131,32 @@ namespace Tasks_day
             Console.WriteLine("Maximmum Number is: " + maxNumber);
 
             //task5
-            double ratio = 0.621371;
-            Console.WriteLine("Please Enter The Speed in kilometers per hour");
-            string inputinkilometer = Console.ReadLine();
-            double kilometer = Convert.ToDouble(inputinkilometer);
-            double mile = ratio * kilometer;
-            Console.WriteLine(mile + " miles per hour");
+            //double ratio = 0.621371;
+            //Console.WriteLine("Please Enter The Speed in kilometers per hour");
+            //string inputinkilometer = Console.ReadLine();
+            //double kilometer = Convert.ToDouble(inputinkilometer);
+            //double mile = ratio * kilometer;
+            //Console.WriteLine(mile + " miles per hour");
 
 
-            //task6
-            Console.WriteLine("please Enter The Number of Hour");
-            string inputnumberofhours = Console.ReadLine();
-            int numberofhour = Convert.ToInt32(inputnumberofhours);
-            Console.WriteLine("please Enter The Number of minutes");
-            string inputnumberofminutes = Console.ReadLine();
-            int numberofminutes = Convert.ToInt32(inputnumberofminutes);
-            int totalnumberofminutes = numberofhour * 60 + numberofminutes;
-            Console.WriteLine("Total of minutes is:" + totalnumberofminutes);
+            ////task6
+            //Console.WriteLine("please Enter The Number of Hour");
+            //string inputnumberofhours = Console.ReadLine();
+            //int numberofhour = Convert.ToInt32(inputnumberofhours);
+            //Console.WriteLine("please Enter The Number of minutes");
+            //string inputnumberofminutes = Console.ReadLine();
+            //int numberofminutes = Convert.ToInt32(inputnumberofminutes);
+            //int totalnumberofminutes = numberofhour * 60 + numberofminutes;
+            //Console.WriteLine("Total of minutes is:" + totalnumberofminutes);
 
-            //task7
-            Console.WriteLine("please Enter The Number of minutes");
-            string inputTotalOfMinutes = Console.ReadLine();
-            int numberofminutesfromuser = Convert.ToInt32(inputTotalOfMinutes);
-            int numberofMinute = numberofminutesfromuser % 60;
-            int numberoghours = numberofminutesfromuser / 60;
+            ////task7
+            //Console.WriteLine("please Enter The Number of minutes");
+            //string inputTotalOfMinutes = Console.ReadLine();
+            //int numberofminutesfromuser = Convert.ToInt32(inputTotalOfMinutes);
+            //int numberofMinute = numberofminutesfromuser % 60;
+            //int numberoghours = numberofminutesfromuser / 60;
 
-            Console.WriteLine(numberoghours + "hours ," + numberofMinute + "  minutes");
+            //Console.WriteLine(numberoghours + "hours ," + numberofMinute + "  minutes");
 
 
             //task8
