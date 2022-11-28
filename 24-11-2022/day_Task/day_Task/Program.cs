@@ -14,6 +14,7 @@ namespace day_Task
             int age;
             string gender, name, email, phone;
             double id;
+
             Console.WriteLine("Please Enter You'r name");
             name = Console.ReadLine();
 
@@ -25,8 +26,10 @@ namespace day_Task
             Console.WriteLine("Please Enter You'r Gender ");
             gender =Console.ReadLine();
 
+
             Console.WriteLine("Please Enter You'r Id");
             id = Convert.ToDouble(Console.ReadLine());
+
 
             Console.WriteLine("Please Enter You'r Email");
             email = Console.ReadLine();

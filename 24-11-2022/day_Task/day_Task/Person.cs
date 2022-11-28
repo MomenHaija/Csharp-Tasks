@@ -18,7 +18,7 @@ namespace day_Task
 
         public Person(int age, string gender, string name, String email, double id, String phone)
         {
-            this.Age = Validationage(age);
+            this.Age = ValidationAge(age);
             this.Email = email;
             this.Gender = gender;
             this.Name = name;
@@ -36,7 +36,7 @@ namespace day_Task
                 $"Age:{Age}"
                 );
         }
-        private int  Validationage(int age)
+        private int  ValidationAge(int age)
         {
             int r_age;
             if (age >= 18 && age <= 60)
@@ -47,14 +47,14 @@ namespace day_Task
             {
                 Console.WriteLine("you'r age not between the 18 and 60 please reEnter Your age");
                 r_age= Convert.ToInt32(Console.ReadLine());
-                return Validationage(r_age);
+                return ValidationAge(r_age);
             }
 
         }
         public string ValidationNumber(string phone)
         {
             string str = phone.Substring(0, 3);
-            if (str == "079" || str == "078" || str == "077")
+            if ((str == "079" || str == "078" || str == "077")&&phone.Length==10)
             {
                return phone;
             }
