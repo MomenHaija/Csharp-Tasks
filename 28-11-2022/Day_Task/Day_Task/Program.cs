@@ -23,14 +23,15 @@ namespace Day_Task
             Console.WriteLine(car.Print());
 
             BWM car1 = new BWM("KIA", 2006, "Banzen", 5045.25, "Sportage", "17-49913", "brown");
-            car1.Print();
-
+      
             Console.WriteLine("Please Enter The Numbers of Letter");
             double numberofletter = Convert.ToDouble(Console.ReadLine());
             car.NumberOfLetter=numberofletter;
-
-
             car.displayenough(numberofletter);
+            
+
+            car1.Print();
+
 
           Console.ReadKey();
         }

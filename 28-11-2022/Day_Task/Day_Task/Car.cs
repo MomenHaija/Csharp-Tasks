@@ -73,7 +73,7 @@ namespace Day_Task
         public double LetterPerKillo { get; set; } = 8.5;
         
 
-        public double NumberOfLetter { get;  set; }
+        public double NumberOfLetter { get;  set;  }
 
 
         public void  displayenough(double numberleteer)
