@@ -10,9 +10,15 @@ namespace Day_Task
     {
         static void Main(string[] args)
         {
-            Manager m1 = new Manager("Momen",1999,23);
+
+          
+
+            var dateTime= new DateTime(1999,10,27);
+
+            Manager m1 = new Manager("Momen", dateTime, 20);
             m1.Print();
             m1.Salary(500.45, 0.03);
+
         }
     }
 }

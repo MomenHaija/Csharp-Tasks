@@ -15,25 +15,30 @@ using System.Threading.Tasks;
         protected string employeename;
         public string EmployeeName { get; set; }
 
-        protected int birthofdate;
-        public int BirthOfDate { get; set; }
+        protected DateTime birthofdate;
+        public DateTime BirthOfDate { get; set; }
 
-        protected int employeeiD;
+        protected int employeeid;
         public int EmployeeID { get; set; }
 
 
-        public Employee(string name,int birth,int id)
+        public Employee(string name,DateTime birth,int id)
         {
-            this.employeeiD = id;
+            this.employeeid = id;
             this.birthofdate = birth;
             this.employeename = name;
                 
         }
   
-        public int Age()
+        public String Age()
         {
-            return 2023 - this.birthofdate;
-        }
+
+            var DateYear = DateTime.Now.Year - birthofdate.Year;
+            var DateMonth = DateTime.Now.Month - birthofdate.Month;
+            var DateDay = DateTime.Now.Day - birthofdate.Day;
+            return $"{DateYear}year,{DateMonth}month,{DateDay}day";
+                
+       }
 
         public abstract double Salary(double slaray, double tax);
 
@@ -51,7 +56,7 @@ using System.Threading.Tasks;
     }
     public class Manager:Employee
     {
-        public Manager(string name, int birth, int id):base(name,birth,id)
+        public Manager(string name, DateTime birth, int id):base(name,birth,id)
         {
                 
         }
@@ -60,7 +65,7 @@ using System.Threading.Tasks;
             Console.WriteLine(
                 $"Manger Name:{this.employeename}\n"+
                 $"Manager Birth Date:{this.birthofdate}\n"+
-                $"Manager ID:{this.birthofdate}\n"+
+                $"Manager ID:{this.employeeid}\n"+
                 $"Manager Age:{Age()}"
                 );
         }
